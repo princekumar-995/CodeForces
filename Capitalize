@@ -1,0 +1,12 @@
+import java.util.*;
+
+public class capitalize {
+    public static void main(String[] args) {
+
+        Scanner sc=new Scanner(System.in);
+        String str=sc.next();
+        int n=sc.nextInt();
+        char first=Character.toUpperCase(str.charAt(0));
+        System.out.println(first + str.substring(1));
+    }
+}
